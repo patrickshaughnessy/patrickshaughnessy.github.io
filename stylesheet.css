@@ -1,0 +1,44 @@
+body, a {
+  background-color: #1F434F;
+  color: #B3B3B3;
+  font-family: Monaco, Courier, monospace;
+  overflow: scroll;
+}
+
+div {
+  font-size: 100%;
+  /*border: 1px solid pink;*/
+}
+
+.container-fluid {
+  display: block;
+  height: 100vh;
+  clear: both;
+  overflow: scroll;
+}
+
+input {
+  border-radius: 2px;
+  border-style: outset;
+}
+
+#first {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#sections div {
+  text-align: center;
+  margin: 5% 0;
+}
+
+#sections h4 {
+  margin-top: 5%;
+}
+
+.fa-6 {
+  font-size: 300%;
+}
