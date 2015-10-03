@@ -29,7 +29,6 @@ $('#yourName').keypress(function(e){
 $('a').click(function(e){
   e.preventDefault();
   var loc = this.hash;
-  console.log(loc);
   $(window).scrollTo($(loc), 800, {easing: 'easeOutCirc'});
   return false;
 })

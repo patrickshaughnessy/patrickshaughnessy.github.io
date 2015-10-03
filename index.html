@@ -1,3 +1,7 @@
+---
+
+---
+
 <!DOCTYPE html>
 <html lang="en" ng-app>
   <head>
@@ -86,7 +90,7 @@
               <i class="fa fa-smile-o fa-6"></i>
             </a>
             <h4>About Me</h4>
-            <p>A brief history</p>
+            <p>A quick introduction and contact info</p>
           </div>
         </div>
 
@@ -100,6 +104,8 @@
             <i class="fa fa-cogs fa-6"></i>
             <h4>Projects</h4>
             <p>The latest and greatest from my portfolio.</p>
+            <br><br><br>
+            <h4>Coming Soon...</h4>
           </div>
         </div>
       </div>
@@ -112,6 +118,16 @@
             <i class="fa fa-pencil fa-6"></i>
             <h4>Blog</h4>
             <p>Read the latest news in my world</p>
+
+            <div class="row">
+              {% for post in site.posts limit:3%}
+                <div class="col-md-4">
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                  {{ post.excerpt }}
+                </div>
+              {% endfor %}
+            </div>
+
           </div>
         </div>
       </div>
@@ -119,13 +135,60 @@
 
     <div class="container-fluid" id="about">
       <div class="container">
+
         <div class="row">
           <div class="col-md-12" style="text-align: center">
             <i class="fa fa-smile-o fa-6"></i>
             <h4>About Me</h4>
-            <p>A brief history</p>
+            <p>A quick introduction and contact info</p>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <h3 style="text-align: center">Multipotentialite with a current focus on coding</h3>
+            <p>
+              <br>
+              If you’ve never heard that term before, check out <a href="http://www.ted.com/talks/emilie_wapnick_why_some_of_us_don_t_have_one_true_calling">this TED talk</a>.
+              <br><br>
+              My fresh new hotness is coding. I’m interested in being a part of shaping the future, and maybe getting on that TED stage myself one day.
+              <br><br>
+              To that end, I’ll be taking a crash course in javascript and full stack development with <a href="http://codinghouse.co/">Coding House</a> in San Francisco from October 2015 to February 2016.
+              <br><br>
+              Stay tuned for updates on the blog, and feel free to contact me on any medium below.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12" style="text-align: center">
+            <div class="social">
+                <ul>
+                    <li><a href="https://www.facebook.com/patrick.shaughnessy.5815"><i class="fa fa-lg fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/pattshaughnessy"><i class="fa fa-lg fa-twitter"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li> -->
+                    <li><a href="https://github.com/pshaughn86"><i class="fa fa-lg fa-github"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-pinterest"></i></a></li> -->
+                    <li><a href="https://www.linkedin.com/pub/patrick-shaughnessy/14/2b1/77"><i class="fa fa-lg fa-linkedin"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-flickr"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-vimeo-square"></i></a></li> -->
+                    <li><a href="http://stackoverflow.com/users/5294685/patrick-shaughnessy"><i class="fa fa-lg fa-stack-overflow"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-dropbox"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-tumblr"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-dribbble"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-skype"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-stack-exchange"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-youtube"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-xing"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-rss"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-foursquare"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-lg fa-youtube-play"></i></a></li> -->
+                </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
