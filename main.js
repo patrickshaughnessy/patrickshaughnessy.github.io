@@ -26,9 +26,9 @@ $('#yourName').keypress(function(e){
   }
 });
 
-$('a').click(function(e){
+$('a.internal').click(function(e){
   e.preventDefault();
   var loc = this.hash;
   $(window).scrollTo($(loc), 800, {easing: 'easeOutCirc'});
   return false;
-})
+});

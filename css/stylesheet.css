@@ -47,6 +47,35 @@ input {
   text-decoration: underline;
 }
 
+.post-content img {
+  margin: 2% auto 0 auto;
+  display: block;
+}
+
+.post-content h6 {
+  font-size: 90%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.post-content blockquote {
+  margin-left: 5%;
+}
+
+.post-content blockquote h1 {
+  font-size: 90%;
+  font-style: italic;
+}
+
+.post-content a {
+  text-decoration: underline;
+}
+
+.post-content .center {
+  text-align: center;
+}
+
+
 /*Social Media CSS*/
 
 .social {
