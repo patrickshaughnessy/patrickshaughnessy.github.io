@@ -32,3 +32,5 @@ $('a.internal').click(function(e){
   $(window).scrollTo($(loc), 800, {easing: 'easeOutCirc'});
   return false;
 });
+
+// $('#nav').affix('checkPosition');

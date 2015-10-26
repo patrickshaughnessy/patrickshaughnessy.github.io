@@ -22,6 +22,10 @@ input {
   border-style: outset;
 }
 
+.affix {
+  background-color: white;
+}
+
 #first {
   position: absolute;
   top: 50%;
