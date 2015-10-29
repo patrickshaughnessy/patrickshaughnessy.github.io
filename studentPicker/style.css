@@ -1,0 +1,194 @@
+div {
+  /*border: 1px solid black;*/
+}
+
+body {
+  background-image: url(http://cadenichols.com/images/headshot.jpg);
+}
+
+#header h1{
+  text-align: center;
+  font-family: fantasy;
+  color: white;
+}
+
+#addNamesArea {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  height: 110px;
+  font-family: fantasy;
+  text-align: center;
+  color: white;
+}
+
+#addNamesArea label{
+  font-size: 26px;
+}
+
+#addNamesArea input{
+  height: 22px;
+}
+
+#addNamesArea button {
+  font-size: 40px;
+  border-radius: 47px;
+  margin: 6% 2% 2% 7%;
+  font-family: fantasy;
+  padding: 3% 2% 0px 2%;
+  background-color: red;
+}
+
+#namesDiv {
+  width: 45%;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+#namesDiv h3 {
+  text-align: center;
+  font-family: fantasy;
+  text-decoration: underline;
+  color: white;
+  font-size: 40px;
+}
+
+#namesList {
+  height: 174px;
+  overflow:auto;
+  /*margin: 0 auto;*/
+  overflow:scroll;
+}
+
+#namesList ul {
+  list-style-type: none;
+  text-align: center;
+  font-family: fantasy;
+  margin: 1% 0% 1% -8%;
+}
+
+#namesList li{
+  float: left;
+  margin: 5px;
+}
+
+#randomStudentArea button {
+  font-size: 40px;
+  border-radius: 47px;
+  margin: 6% 2% 2% 7%;
+  font-family: fantasy;
+  padding: 3% 2% 1% 2%;
+  background-color: red;
+}
+
+#randomStudentArea div {
+  display: inline;
+  margin: 0% 0% 0% 15%;
+}
+#randomStudentArea h1 {
+  font-size: 40px;
+  display:inline;
+  font-family:fantasy;
+
+}
+
+#makeRandomPairsArea div {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#makeRandomPairsArea button{
+  display: inline;
+  font-size: 40px;
+  border-radius: 47px;
+  margin: 6% 2% 2% 7%;
+  font-family: fantasy;
+  padding: 3% 2% 0px 2%;
+  background-color: red;
+}
+
+#randomPairs {
+  display: inline;
+  height: 174px;
+  overflow:auto;
+  /*margin: 0 auto;*/
+  overflow:scroll;
+}
+
+#randomPairs ul {
+  list-style-type: none;
+  text-align: center;
+  font-family: fantasy;
+  margin: 1% 0% 1% -8%;
+}
+
+#randomPairs li{
+  float: left;
+  margin: 3%;
+}
+
+#makeGroupsArea {
+  vertical-align: top;
+  /*height: 110px;*/
+  font-family: fantasy;
+  text-align: center;
+  margin: 3% 0 3% 0;
+}
+
+/*#addNamesArea label{
+  font-size: 26px;
+}*/
+
+#makeGroupsArea input{
+  height: 25px;
+  display: inline;
+  width: 8%;
+}
+
+#makeGroupsArea h2 {
+  display: inline;
+  font-size: 145%;
+  color: white;
+}
+
+#makeGroupsArea button {
+  font-size: 40px;
+  border-radius: 47px;
+  margin: 6% 2% 2% 7%;
+  font-family: fantasy;
+  padding: 3% 2% 0px 2%;
+  background-color: red;
+}
+
+#teamsList {
+  display: inline;
+  height: 174px;
+  overflow:auto;
+  /*margin: 0 auto;*/
+  overflow:scroll;
+}
+
+#teamsList ul {
+  list-style-type: none;
+  text-align: center;
+  font-family: fantasy;
+  margin: 1% 0% 1% -8%;
+}
+
+#teamsList li{
+  float: left;
+  margin: 3%;
+}
+
+#makeGroupsArea>div {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#groupInput {
+  width: 100%;
+}
